@@ -1,0 +1,39 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "abyazid1",
+  "key": "BJwdVZUwdtuYeiDK36BC",
+
+  "capabilities": {
+    "build": "fssm-testng-browserstack",
+    "name": "crossbrowser-parallel_test",
+    "browserstack.debug": true,
+    "browserstack.local": "true",
+    "browserstack.localIdentifier": "Test123",
+    "acceptSslCerts": true,
+    "resolution": "1920x1080",
+    "browserstack.selenium_version": "3.12.0"
+  },
+
+  "environments": {
+    "chrome": {
+      "browser": "Chrome",
+      "os": "Windows"
+    },
+    "firefox": {
+      "browser": "Chrome",
+      "browser": "Firefox"
+    },
+    "safari": {
+      "os": "OS X",
+      "browser": "safari",
+      "os_version": "High Sierra"
+    },
+    "ie": {
+      "browser": "IE",
+      "browser_version": "11.0"
+    },
+    "edge": {
+      "browser": "Edge"
+    }
+  }
+}
